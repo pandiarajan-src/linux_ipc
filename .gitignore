@@ -1,3 +1,8 @@
 unix_socket_ipc/client
 msg_queue_ipc/sender
 msg_queue_ipc/receiver
+.DS_Store
+unix_socket_ipc/.DS_Store
+unix_socket_ipc/server
+unix_socket_ipc/server_multiplex
+unix_socket_ipc/*.dSYM/
