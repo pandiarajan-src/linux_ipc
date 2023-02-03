@@ -6,3 +6,6 @@ unix_socket_ipc/.DS_Store
 unix_socket_ipc/server
 unix_socket_ipc/server_multiplex
 unix_socket_ipc/*.dSYM/
+shared_memory_ipc/shm_file
+shared_memory_ipc/shm_ram
+shared_memory_ipc/*.dSYM/
