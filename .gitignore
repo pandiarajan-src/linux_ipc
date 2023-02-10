@@ -14,3 +14,7 @@ signal_ipc/os2process
 signal_ipc/p2p_receiver
 signal_ipc/p2p_sender
 signal_ipc/process2self
+gene
+bin/fork_ipc.o
+general_ipc_concepts/fork_ipc
+general_ipc_concepts/fork_ipc.dSYM/
