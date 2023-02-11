@@ -30,14 +30,16 @@ int main(int argc, char* argv[])
 
     memset(buffer, 0, MSG_BUFFER_SIZE);
     printf("Please enter a message to receiver : %s\n", argv[1]);
-    scanf("%s", buffer);
-
-    if(mq_send(msg_q_fd, buffer, strlen(buffer)+1, 0) == -1)
+    if( scanf("%s", buffer) )
     {
-        perror("ERROR: sending data to message queue is a problem...\n");
-        exit(EXIT_SUCCESS);
+        if(mq_send(msg_q_fd, buffer, strlen(buffer)+1, 0) == -1)
+        {
+            perror("ERROR: sending data to message queue is a problem...\n");
+            exit(EXIT_SUCCESS);
 
+        }
     }
+
     mq_close(msg_q_fd);
     return 0;
 }

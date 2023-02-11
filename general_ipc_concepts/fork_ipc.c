@@ -6,7 +6,7 @@
 
 void fork_example_1()
 {
-        int numberOfFork = 0;
+    //int numberOfFork = 0;
     printf("This program helps to fork new process.\n");
     // printf("Enter number of process and inner process you want to fork? : \n");
     // scanf("%d", &numberOfFork);
