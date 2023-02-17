@@ -1,5 +1,5 @@
-CC=/usr/bin/gcc
-CFLAGS=-O2 -Wall
+CC=/usr/bin/g++
+CFLAGS=-O2 -Wall -std=c++20
 
 all: fork_ipc message_queue
 
